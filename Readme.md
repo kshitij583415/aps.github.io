@@ -25,7 +25,8 @@ Prakash Hegade
 3. [*Data Structures and Algorithms applicable*](#data-structures-and-algorithms-applicable)
 
 ## Introduction
-![image](images/img1.jpg)
+   ![image](images/img1.jpg)
+
 Snapchat is an American multimedia instant messaging app and service developed by Snap Inc., originally Snapchat Inc. One of the principal features of Snapchat is that pictures and messages are usually only available for a short time before they become inaccessible to their recipients. The app has evolved from originally focusing on person-to-person photo sharing to presently featuring users' "Stories" of 24 hours of chronological content, along with "Discover", letting brands show ad-supported short-form content. It also allows users to store photos in a password-protected area called "My Eyes Only". It has also reportedly incorporated limited use of end-to-end encryption, with plans to broaden its use in the future.
 
 Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former students at Stanford University. It is known for representing a mobile-first direction for social media, and places significant emphasis on users interacting with virtual stickers and augmented reality objects. In July 2021, Snapchat had 293 million daily active users, a 23% growth over a year. On average more than four billion Snaps are sent each day. Snapchat is popular among the younger generations, particularly those below the age of 16, leading to many privacy concerns for parents.
@@ -47,7 +48,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 1. **User Profile Management**
    - **Use Case**: Efficient management of user profiles.
-   - **Data Structure**: Hash Map.
+   - **Algorithm**: Hash Map.
    - **Description**: Hash Map is used to store user profiles, facilitating quick insertion, deletion, and retrieval operations. It ensures efficient management of user data, supporting seamless user interaction and profile updates in Snapchat.
    - **Time Complexity**: O(1) for average-case operations (insertion, deletion, retrieval).
    - **Space Complexity**: O(n), where n is the number of user profiles stored
@@ -63,7 +64,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 3. **Snapchat Memories Storage**
    - **Use Case**: Efficiently storing and retrieving user memories to ensure quick access and management.
-   - **Data Structure**: B-Trees
+   - **Algorithm**: B-Trees
    - **Description**: B-Trees efficiently store and retrieve user memories.
    - **Time Complexity**: 
      - Search: O(log_B n)
@@ -110,7 +111,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 8. **Search Functionality Enhancement**
    - **Use Case**: Improving search speed for user profiles.
-   - **Data Structure**: Trie (Prefix Tree).
+   - **Algorithm**: Trie (Prefix Tree).
    - **Description**: Trie is utilized to store user profile names efficiently, enabling fast prefix-based searches and enhancing search functionality for users.
    - **Time Complexity**: O(m), where m is the length of the search query.
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
@@ -118,7 +119,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 9. **Geolocation-based Snap Stories**
    - **Use Case**: Displaying local snaps on Snap Maps..
-   - **Data Structure**: R-Tree..
+   - **Algorithm**: R-Tree..
    - **Description**:R-Tree organizes geolocation data of snaps, optimizing retrieval and display of local stories on Snap Maps.
    - **Time Complexity**: O(m) for search operations, where m is the length of the search query.
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
@@ -126,7 +127,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 10. **Snapchat Streaks Tracking**
    - **Use Case**: Tracking streaks between users.
-   - **Data Structure**: Priority Queue.
+   - **Algorithm**: Priority Queue.
    - **Description**:Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
    - **Time Complexity**: O(log n) 
    - **Space Complexity**:O(n) for storing streak data.
@@ -135,7 +136,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 11. **Snapchat Filters Application**
    - **Use Case**: Applying real-time filters to snaps.
-   - **Data Structure**: Hash Table.
+   - **Algorithm**: Hash Table.
    - **Description**:Hash Table stores filter parameters and efficiently applies them to snaps, enhancing user experience with real-time filter application.
    - **Time Complexity**: O(1) 
    - **Space Complexity**:O(n)
@@ -143,7 +144,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
 
 12. **Snapchat Notification Management**
    - **Use Case**: Managing notifications for snaps and messages.
-   - **Data Structure**: Binary Search Tree (BST).
+   - **Algorithm**: Binary Search Tree (BST).
    - **Description**:BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
    - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
    - **Space Complexity**:O(n)
