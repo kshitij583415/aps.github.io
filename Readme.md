@@ -25,7 +25,7 @@ Prakash Hegade
 3. [*Data Structures and Algorithms applicable*](#data-structures-and-algorithms-applicable)
 
 ## Introduction
-
+[images/img1.jpg]
 Snapchat is an American multimedia instant messaging app and service developed by Snap Inc., originally Snapchat Inc. One of the principal features of Snapchat is that pictures and messages are usually only available for a short time before they become inaccessible to their recipients. The app has evolved from originally focusing on person-to-person photo sharing to presently featuring users' "Stories" of 24 hours of chronological content, along with "Discover", letting brands show ad-supported short-form content. It also allows users to store photos in a password-protected area called "My Eyes Only". It has also reportedly incorporated limited use of end-to-end encryption, with plans to broaden its use in the future.
 
 Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former students at Stanford University. It is known for representing a mobile-first direction for social media, and places significant emphasis on users interacting with virtual stickers and augmented reality objects. In July 2021, Snapchat had 293 million daily active users, a 23% growth over a year. On average more than four billion Snaps are sent each day. Snapchat is popular among the younger generations, particularly those below the age of 16, leading to many privacy concerns for parents.
@@ -51,7 +51,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: Hash Map is used to store user profiles, facilitating quick insertion, deletion, and retrieval operations. It ensures efficient management of user data, supporting seamless user interaction and profile updates in Snapchat.
    - **Time Complexity**: O(1) for average-case operations (insertion, deletion, retrieval).
    - **Space Complexity**: O(n), where n is the number of user profiles stored
-   - **Code**: [Click here](code/hash.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp)
 
 2. **Friend List Management**
    - **Use Case**: Efficiently managing user friend connections.
@@ -59,7 +59,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: DFS explores friend connections for efficient management of user friend lists.
    - **Time Complexity**: O(V + E)
    - **Space Complexity**: O(V)
-   - **Code**: [Click here](code/dfs.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dfs.cpp)
 
 3. **Snapchat Memories Storage**
    - **Use Case**: Efficiently storing and retrieving user memories to ensure quick access and management.
@@ -71,7 +71,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
      - Deletion: O(log_B n)
      (where n is the number of memories stored and B is the branching factor of the B-Tree)
    - **SC**: O(n) for storing n memories.
-   - **Code**: [Click here](code/btree.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/btree.cpp)
 
 
 4. **Real-Time Messaging**
@@ -80,7 +80,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: A FIFO Queue manages message order, ensuring messages are sent and received in the order they were sent.
    - **Time Complexity**: O(1)
    - **Space Complexity**: O(n).
-   - **Code**: [Click here](code/queue.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/queue.cpp)
    
 
 5. **Snapchat Stories Compilation**
@@ -89,7 +89,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: Merge Sort organizes snaps by timestamp, ensuring stories are displayed chronologically for users.
    - **Time Complexity**: O(n log n) 
    - **Space Complexity**: O(n) 
-   - **Code**: [Click here](code/merge.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/merge.cpp)
 
 
 6. **Snap Map Navigation**
@@ -98,7 +98,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: Dijkstra's Algorithm finds the shortest path on Snap Maps, optimizing navigation for users based on distance and traffic conditions.
    - **Time Complexity**: O((V + E) log V) 
    - **Space Complexity**: O(V + E)
-   - **Code**: [Click here](code/dj.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dj.cpp)
 
 7. **Snapchat Analytics**
    - **Use Case**: Analyzing user engagement with snaps and stories.
@@ -106,7 +106,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: Counting Sort organizes viewer data efficiently, facilitating analytics on snap and story engagement.
    - **Time Complexity**: O(n + k) 
    - **Space Complexity**: O(n + k) 
-   - **Code**: [Click here](code/count.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp)
 
 8. **Search Functionality Enhancement**
    - **Use Case**: Improving search speed for user profiles.
@@ -114,7 +114,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: Trie is utilized to store user profile names efficiently, enabling fast prefix-based searches and enhancing search functionality for users.
    - **Time Complexity**: O(m), where m is the length of the search query.
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
-   - **Code**: [Click here](code/trie.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp)
 
 9. **Geolocation-based Snap Stories**
    - **Use Case**: Displaying local snaps on Snap Maps..
@@ -130,7 +130,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**:Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
    - **Time Complexity**: O(log n) 
    - **Space Complexity**:O(n) for storing streak data.
-   - **Code**: [Click here](code/priority.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp)
 
 
 11. **Snapchat Filters Application**
@@ -139,7 +139,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**:Hash Table stores filter parameters and efficiently applies them to snaps, enhancing user experience with real-time filter application.
    - **Time Complexity**: O(1) 
    - **Space Complexity**:O(n)
-   - **Code**: [Click here](code/hash.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp)
 
 12. **Snapchat Notification Management**
    - **Use Case**: Managing notifications for snaps and messages.
@@ -147,7 +147,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**:BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
    - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
    - **Space Complexity**:O(n)
-   - **Code**: [Click here](code/)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp)
 
 
 
