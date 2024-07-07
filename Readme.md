@@ -1,4 +1,4 @@
-# A Comprehensive APS Portfolio
+# Snapchat
 
 *Course Name*  
 Algorithmic Problem Solving
@@ -122,7 +122,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Use Case**: Tracking streaks between users.
    - **Data Structure**: Priority Queue.
    - **Description**:Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
-   - **Time Complexity**: O(log n) for operations on the Priority Queue.
+   - **Time Complexity**: O(log n) 
    - **Space Complexity**:O(n) for storing streak data.
 
 
@@ -130,7 +130,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Use Case**: Applying real-time filters to snaps.
    - **Data Structure**: Hash Table.
    - **Description**:Hash Table stores filter parameters and efficiently applies them to snaps, enhancing user experience with real-time filter application.
-   - **Time Complexity**: O(1) for average-case filter application.
+   - **Time Complexity**: O(1) 
    - **Space Complexity**:O(n)
 
 12. **Snapchat Notification Management**
