@@ -51,6 +51,7 @@ Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former stu
    - **Description**: Hash Map is used to store user profiles, facilitating quick insertion, deletion, and retrieval operations. It ensures efficient management of user data, supporting seamless user interaction and profile updates in Snapchat.
    - **Time Complexity**: O(1) for average-case operations (insertion, deletion, retrieval).
    - **Space Complexity**: O(n), where n is the number of user profiles stored
+   -[View Code here](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/)
 
 2. **Friend List Management**
    - **Use Case**: Efficiently managing user friend connections.
