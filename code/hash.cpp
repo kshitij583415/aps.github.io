@@ -1,35 +1,94 @@
 #include <iostream>
-#include <unordered_map>
+#include <list>
 #include <string>
+using namespace std;
 
-struct UserProfile {
-    std::string name;
-    int age;
-    std::string email;
+class HashMap {
+private:
+    static const int hashGroups = 10;
+    list<pair<int, string>> table[hashGroups];
 
-    UserProfile(std::string n, int a, std::string e) : name(n), age(a), email(e) {}
+public:
+    bool isEmpty() const {
+        int sum = 0;
+        for (int i = 0; i < hashGroups; i++)
+            sum += table[i].size();
+        if (!sum)
+            return true;
+        return false;
+    }
+
+    int hashFunction(int key) {
+        return key % hashGroups;
+    }
+
+    void insertItem(int key, string value) {
+        int index = hashFunction(key);
+        auto &bucket = table[index];
+        bool keyExists = false;
+        for (auto &kv : bucket) {
+            if (kv.first == key) {
+                kv.second = value;
+                keyExists = true;
+                break;
+            }
+        }
+        if (!keyExists)
+            bucket.emplace_back(key, value);
+    }
+
+    void removeItem(int key) {
+        int index = hashFunction(key);
+        auto &bucket = table[index];
+        auto itr = bucket.begin();
+        bool keyExists = false;
+        for (; itr != bucket.end(); itr++) {
+            if (itr->first == key) {
+                keyExists = true;
+                break;
+            }
+        }
+        if (keyExists)
+            bucket.erase(itr);
+    }
+
+    string searchItem(int key) {
+        int index = hashFunction(key);
+        auto &bucket = table[index];
+        for (auto kv : bucket) {
+            if (kv.first == key)
+                return kv.second;
+        }
+        return "";
+    }
+
+    void displayHash() {
+        for (int i = 0; i < hashGroups; i++) {
+            if (table[i].size() == 0)
+                continue;
+            for (auto kv : table[i])
+                cout << "Key: " << kv.first << " Value: " << kv.second << endl;
+        }
+    }
 };
 
 int main() {
-    // Create an unordered map to store user profiles
-    std::unordered_map<std::string, UserProfile> userProfiles;
+    HashMap hmap;
+    
+    hmap.insertItem(1, "Value1");
+    hmap.insertItem(2, "Value2");
+    hmap.insertItem(3, "Value3");
+    hmap.insertItem(4, "Value4");
 
-    // Inserting user profiles
-    userProfiles["user1"] = UserProfile("Alice", 25, "alice@example.com");
-    userProfiles["user2"] = UserProfile("Bob", 30, "bob@example.com");
-    userProfiles["user3"] = UserProfile("Charlie", 22, "charlie@example.com");
+    cout << "Hash Map:" << endl;
+    hmap.displayHash();
 
-    // Retrieving a user profile
-    std::string username = "user2";
-    if (userProfiles.find(username) != userProfiles.end()) {
-        UserProfile user = userProfiles[username];
-        std::cout << "Name: " << user.name << ", Age: " << user.age << ", Email: " << user.email << std::endl;
-    } else {
-        std::cout << "User not found!" << std::endl;
-    }
+    cout << "Searching for key 3: " << hmap.searchItem(3) << endl;
+    cout << "Searching for key 5: " << hmap.searchItem(5) << endl;
 
-    // Deleting a user profile
-    userProfiles.erase("user3");
+    hmap.removeItem(2);
+    cout << "After removing key 2:" << endl;
+    hmap.displayHash();
 
     return 0;
 }
