@@ -55,7 +55,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: A Hash Map is used to store user profiles, allowing quick insertion, deletion, and retrieval operations. This ensures efficient management of user data, supporting seamless user interaction and profile updates in Snapchat.
    - **Time Complexity**: O(1) for average-case operations (insertion, deletion, retrieval).
    - **Space Complexity**: O(n), where n is the number of user profiles stored.
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp) 
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp) [1]
 
 2. **Friend List Management**
    - **Use Case**: Efficiently managing user friend connections.
@@ -64,7 +64,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: DFS explores friend connections, efficiently managing user friend lists.
    - **Time Complexity**: O(V + E).
    - **Space Complexity**: O(V).
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dfs.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dfs.cpp) [2]
 
 3. **Snapchat Memories Storage**
    - **Use Case**: Efficiently storing and retrieving user memories to ensure quick access and management.
@@ -77,7 +77,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
      - Deletion: O(log_B n)
      (where n is the number of memories stored and B is the branching factor of the B-Tree).
    - **Space Complexity**: O(n) for storing n memories.
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/btree.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/btree.cpp) [3]
 
 4. **Real-Time Messaging**
    - **Use Case**: Sending and receiving messages instantly.
@@ -86,7 +86,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: A FIFO Queue manages the order of messages, ensuring they are sent and received in the order they were sent.
    - **Time Complexity**: O(1).
    - **Space Complexity**: O(n).
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/queue.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/queue.cpp) [4]
 
 5. **Snapchat Stories Compilation**
    - **Use Case**: Merging snaps into a story.
@@ -95,7 +95,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: Merge Sort organizes snaps by timestamp, ensuring stories are displayed chronologically for users.
    - **Time Complexity**: O(n log n).
    - **Space Complexity**: O(n).
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/merge.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/merge.cpp) [5]
 
 6. **Snap Map Navigation**
    - **Use Case**: Navigating through Snap Maps.
@@ -104,16 +104,19 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: Dijkstra's Algorithm finds the shortest path on Snap Maps, optimizing navigation for users based on distance and traffic conditions.
    - **Time Complexity**: O((V + E) log V).
    - **Space Complexity**: O(V + E).
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dj.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dj.cpp) [6]
 
 7. **Snapchat Analytics**
    - **Use Case**: Analyzing user engagement with snaps and stories.
    - **Challenges**: Handling and processing large volumes of data efficiently and ensuring real-time analytics for immediate insights.
    - **Algorithm**: Counting Sort.
    - **Description**: Counting Sort organizes viewer data efficiently, facilitating analytics on snap and story engagement.
+
+   ![images](images/img8.gif)
+
    - **Time Complexity**: O(n + k).
    - **Space Complexity**: O(n + k).
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp) [7]
 
 8. **Search Functionality Enhancement**
    - **Use Case**: Improving search speed for user profiles.
@@ -121,8 +124,11 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Algorithm**: Trie (Prefix Tree).
    - **Description**: Trie is used to store user profile names efficiently, enabling fast prefix-based searches and enhancing search functionality for users.
    - **Time Complexity**: O(m), where m is the length of the search query.
+
+   ![image](images/img7.png)
+
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp) [8]
 
 9. **Geolocation-based Snap Stories**
    - **Use Case**: Displaying local snaps on Snap Maps.
@@ -138,9 +144,12 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Ensuring accurate and real-time tracking of streaks and managing the priority queue efficiently.
     - **Algorithm**: Priority Queue.
     - **Description**: Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
+
+   ![image](images/img6.gif)
+
     - **Time Complexity**: O(log n).
     - **Space Complexity**: O(n) for storing streak data.
-    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp)
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp) [9]
 
 11. **Snapchat Filters Application**
     - **Use Case**: Applying real-time filters to snaps.
@@ -156,9 +165,12 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Ensuring timely delivery of notifications and efficiently managing a large number of notifications.
     - **Algorithm**: Binary Search Tree (BST).
     - **Description**: BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
+
+   ![images](images/img4.gif)
+
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
-    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [1]
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [10]
 
 13. **Discover Content Recommendation**
     - **Use Case**: Recommending personalized content in the Discover section.
@@ -184,10 +196,36 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Maintaining video quality while achieving high compression ratios and ensuring real-time processing.
     - **Algorithm**: Huffman Coding.
     - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
+
+   ![image](images/img5.gif)
+
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
-    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp)
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp) [11]
+
+16. **Snapchat Augmented Reality (AR) Filters Application**
+    - **Use Case**: Applying real-time augmented reality (AR) filters to snaps.
+    - **Challenges**: Ensuring AR filters are applied seamlessly in real-time, managing a variety of filter options efficiently, and optimizing performance on mobile devices.
+    - **Algorithm**: A* Algorithm 
+    - **Description**: The A* Algorithm helps to find the best way to use augmented reality (AR) filters on snaps quickly. It looks through many possible choices to find the best one. It tries to balance finding the right choice with how much effort it takes. This helps make sure AR filters work well on different devices, making the experience smoother for users.
+   
+   ![image](images/img3.jpg)
+
+    - **Time Complexity**: O(( V + E ) log V)
+    - **Space Complexity**: O( V ) 
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/a.cpp) [12]
 
 
 ## Refrences
 [1] Medium-"HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)
+[2] GeeksforGeeks-"DFS for a Graph" [Link](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+[3] GeeksforGeeks-"B*-Trees implementation in C++" [Link](https://www.geeksforgeeks.org/b-trees-implementation-in-c/)
+[4] Programiz-C++ Queue [Link](https://www.programiz.com/cpp-programming/queue)
+[5] GeeksforGeeks-"C++ Program For Merge Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-merge-sort/)
+[6] GeeksforGeeks-"C / C++ Program for Dijkstra’s shortest path algorithm" [Link](https://www.geeksforgeeks.org/c-program-for-dijkstras-shortest--algorithm-greedy-algo-7/) 
+[7] GeeksforGeeks-"C++ Program For Counting Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-counting-sort/)
+[8] GeeksforGeeks-"Trie Data Structure" [Link](hpathttps://www.geeksforgeeks.org/trie-insert-and-search/)
+[9] GeeksforGeeks-"Priority Queue in C++" [Link](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
+[10] GeeksforGeeks-"Binary Search Tree" [Link](https://www.geeksforgeeks.org/cpp-binary-search-tree/)
+[11] GeeksforGeeks-"Huffman Coding" [Link](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+[12] GeeksforGeeks-"A* Algorithm" [Link](https://www.geeksforgeeks.org/a-search-algorithm/)
