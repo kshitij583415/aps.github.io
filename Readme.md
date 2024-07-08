@@ -21,17 +21,23 @@ Prakash Hegade
 ### This page hosts:
 
 1. [*Introduction*](#introduction)
+2. [*Market Analysis*](#market-analysis)
 2. [*Objectives*](#objectives)
 3. [*Data Structures and Algorithms applicable*](#data-structures-and-algorithms-applicable)
 
 ## Introduction
-   ![image](images/img1.jpg)
+               ![image](images/img1.jpg)
 
 Snapchat is an American multimedia instant messaging app and service developed by Snap Inc., originally Snapchat Inc. One of the principal features of Snapchat is that pictures and messages are usually only available for a short time before they become inaccessible to their recipients. The app has evolved from originally focusing on person-to-person photo sharing to presently featuring users' "Stories" of 24 hours of chronological content, along with "Discover", letting brands show ad-supported short-form content. It also allows users to store photos in a password-protected area called "My Eyes Only". It has also reportedly incorporated limited use of end-to-end encryption, with plans to broaden its use in the future.
 
 Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former students at Stanford University. It is known for representing a mobile-first direction for social media, and places significant emphasis on users interacting with virtual stickers and augmented reality objects. In July 2021, Snapchat had 293 million daily active users, a 23% growth over a year. On average more than four billion Snaps are sent each day. Snapchat is popular among the younger generations, particularly those below the age of 16, leading to many privacy concerns for parents.
+   
+## Market Analysis
+                   ![image](images/img2.jpg)
 
+Snapchat's main users are teenagers and young adults, mostly between the ages of 13 and 24. The app is very popular in North America and Europe, and it is also growing in places like Asia and Latin America. Snapchat faces competition from other social media apps such as Instagram, TikTok, Facebook, and WhatsApp. The app has seen a steady increase in users due to new features and higher engagement. Recent trends in the market include the use of augmented reality (AR), short-form video content, and a greater focus on privacy.
 
+Snapchat makes money primarily through advertising, where ads are shown in the Discover section and Stories. They also earn from in-app purchases like filters and lenses, and through partnerships with brands for special content. However, Snapchat faces challenges like keeping users engaged, balancing the number of ads with user experience, and addressing privacy concerns. To stay ahead, Snapchat must continue to innovate and improve its features while maintaining user trust.
 
 
 ## Objectives
