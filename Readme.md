@@ -106,6 +106,8 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Space Complexity**: O(V + E).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dj.cpp) [6]
 
+   ![images](images/img9.gif)
+
 7. **Snapchat Analytics**
    - **Use Case**: Analyzing user engagement with snaps and stories.
    - **Challenges**: Handling and processing large volumes of data efficiently and ensuring real-time analytics for immediate insights.
@@ -126,7 +128,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp) [8]
 
-   ![image](images/img7.png)
+    ![image](images/img7.png)
 
 9. **Geolocation-based Snap Stories**
    - **Use Case**: Displaying local snaps on Snap Maps.
@@ -166,7 +168,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Space Complexity**: O(n).
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [10]
 
-   ![images](images/img4.gif)
+    ![images](images/img4.gif)
 
 13. **Discover Content Recommendation**
     - **Use Case**: Recommending personalized content in the Discover section.
@@ -196,7 +198,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Space Complexity**: O(n) for storing compressed video data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp) [11]
 
-![image](images/img5.gif)
+    ![image](images/img5.gif)
 
 
 16. **Snapchat Augmented Reality (AR) Filters Application**
@@ -208,7 +210,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Space Complexity**: O( V ) 
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/a.cpp) [12]
 
-![image](images/img3.jpg)
+    ![image](images/img3.jpg)
 
 
 ## Refrences
