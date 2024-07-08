@@ -111,24 +111,21 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Challenges**: Handling and processing large volumes of data efficiently and ensuring real-time analytics for immediate insights.
    - **Algorithm**: Counting Sort.
    - **Description**: Counting Sort organizes viewer data efficiently, facilitating analytics on snap and story engagement.
-
-![images](https://github.com/kshitij583415/aps.github.io/blob/main/images/img8.gif)
-
    - **Time Complexity**: O(n + k).
    - **Space Complexity**: O(n + k).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp) [7]
 
+![images](images/img8.gif)
 8. **Search Functionality Enhancement**
    - **Use Case**: Improving search speed for user profiles.
    - **Challenges**: Handling a large number of profiles and ensuring fast and accurate search results.
    - **Algorithm**: Trie (Prefix Tree).
    - **Description**: Trie is used to store user profile names efficiently, enabling fast prefix-based searches and enhancing search functionality for users.
-   
-![image](images/img7.png)
-
    - **Time Complexity**: O(m), where m is the length of the search query.
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp) [8]
+
+![image](images/img7.png)
 
 9. **Geolocation-based Snap Stories**
    - **Use Case**: Displaying local snaps on Snap Maps.
