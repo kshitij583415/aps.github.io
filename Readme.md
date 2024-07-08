@@ -112,7 +112,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Algorithm**: Counting Sort.
    - **Description**: Counting Sort organizes viewer data efficiently, facilitating analytics on snap and story engagement.
 
-   ![images](images/img8.gif)
+   ![images](https://github.com/kshitij583415/aps.github.io/blob/main/images/img8.gif)
 
    - **Time Complexity**: O(n + k).
    - **Space Complexity**: O(n + k).
@@ -200,7 +200,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
 
    ![image](images/img5.gif)
-   
+
 
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
