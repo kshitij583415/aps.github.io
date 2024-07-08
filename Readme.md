@@ -55,7 +55,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: A Hash Map is used to store user profiles, allowing quick insertion, deletion, and retrieval operations. This ensures efficient management of user data, supporting seamless user interaction and profile updates in Snapchat.
    - **Time Complexity**: O(1) for average-case operations (insertion, deletion, retrieval).
    - **Space Complexity**: O(n), where n is the number of user profiles stored.
-   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp)
+   - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp) 
 
 2. **Friend List Management**
    - **Use Case**: Efficiently managing user friend connections.
@@ -158,7 +158,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
-    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp)
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [1]
 
 13. **Discover Content Recommendation**
     - **Use Case**: Recommending personalized content in the Discover section.
@@ -187,3 +187,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp)
+
+
+## Refrences
+[1] Medium-"HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)
