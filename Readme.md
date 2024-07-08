@@ -113,7 +113,6 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Description**: Counting Sort organizes viewer data efficiently, facilitating analytics on snap and story engagement.
 
    ![images](https://github.com/kshitij583415/aps.github.io/blob/main/images/img8.gif)
-
    - **Time Complexity**: O(n + k).
    - **Space Complexity**: O(n + k).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp) [7]
@@ -126,7 +125,6 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Time Complexity**: O(m), where m is the length of the search query.
 
    ![image](images/img7.png)
-
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp) [8]
 
@@ -144,6 +142,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Ensuring accurate and real-time tracking of streaks and managing the priority queue efficiently.
     - **Algorithm**: Priority Queue.
     - **Description**: Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
+
    ![image](https://github.com/kshitij583415/aps.github.io/blob/main/images/img6.gif)
     - **Time Complexity**: O(log n).
     - **Space Complexity**: O(n) for storing streak data.
@@ -165,8 +164,6 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
 
    ![images](images/img4.gif)
-
-
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [10]
@@ -197,8 +194,6 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
 
    ![image](images/img5.gif)
-
-
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp) [11]
@@ -210,22 +205,21 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: The A* Algorithm helps to find the best way to use augmented reality (AR) filters on snaps quickly. It looks through many possible choices to find the best one. It tries to balance finding the right choice with how much effort it takes. This helps make sure AR filters work well on different devices, making the experience smoother for users.
    
    ![image](images/img3.jpg)
-
     - **Time Complexity**: O(( V + E ) log V)
     - **Space Complexity**: O( V ) 
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/a.cpp) [12]
 
 
 ## Refrences
-[1] Medium-"HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)
-[2] GeeksforGeeks-"DFS for a Graph" [Link](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
-[3] GeeksforGeeks-"B*-Trees implementation in C++" [Link](https://www.geeksforgeeks.org/b-trees-implementation-in-c/)
-[4] Programiz-C++ Queue [Link](https://www.programiz.com/cpp-programming/queue)
-[5] GeeksforGeeks-"C++ Program For Merge Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-merge-sort/)
-[6] GeeksforGeeks-"C / C++ Program for Dijkstra’s shortest path algorithm" [Link](https://www.geeksforgeeks.org/c-program-for-dijkstras-shortest--algorithm-greedy-algo-7/) 
-[7] GeeksforGeeks-"C++ Program For Counting Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-counting-sort/)
-[8] GeeksforGeeks-"Trie Data Structure" [Link](hpathttps://www.geeksforgeeks.org/trie-insert-and-search/)
-[9] GeeksforGeeks-"Priority Queue in C++" [Link](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
-[10] GeeksforGeeks-"Binary Search Tree" [Link](https://www.geeksforgeeks.org/cpp-binary-search-tree/)
-[11] GeeksforGeeks-"Huffman Coding" [Link](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
-[12] GeeksforGeeks-"A* Algorithm" [Link](https://www.geeksforgeeks.org/a-search-algorithm/)
+-[1] Medium-"HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)
+-[2] GeeksforGeeks-"DFS for a Graph" [Link](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+-[3] GeeksforGeeks-"B*-Trees implementation in C++" [Link](https://www.geeksforgeeks.org/b-trees-implementation-in-c/)
+-[4] Programiz-C++ Queue [Link](https://www.programiz.com/cpp-programming/queue)
+-[5] GeeksforGeeks-"C++ Program For Merge Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-merge-sort/)
+-[6] GeeksforGeeks-"C / C++ Program for Dijkstra’s shortest path algorithm" [Link](https://www.geeksforgeeks.org/c-program-for-dijkstras-shortest--algorithm-greedy-algo-7/) 
+-[7] GeeksforGeeks-"C++ Program For Counting Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-counting-sort/)
+-[8] GeeksforGeeks-"Trie Data Structure" [Link](hpathttps://www.geeksforgeeks.org/trie-insert-and-search/)
+-[9] GeeksforGeeks-"Priority Queue in C++" [Link](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
+-[10] GeeksforGeeks-"Binary Search Tree" [Link](https://www.geeksforgeeks.org/cpp-binary-search-tree/)
+-[11] GeeksforGeeks-"Huffman Coding" [Link](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+-[12] GeeksforGeeks-"A* Algorithm" [Link](https://www.geeksforgeeks.org/a-search-algorithm/)
