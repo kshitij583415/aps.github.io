@@ -34,6 +34,7 @@ Snapchat is an American multimedia instant messaging app and service developed b
 Snapchat was created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former students at Stanford University. It is known for representing a mobile-first direction for social media, and places significant emphasis on users interacting with virtual stickers and augmented reality objects. In July 2021, Snapchat had 293 million daily active users, a 23% growth over a year. On average more than four billion Snaps are sent each day. Snapchat is popular among the younger generations, particularly those below the age of 16, leading to many privacy concerns for parents.
 
 ## Market Analysis
+![image](images/img2.jpg)
 
 Snapchat's main users are teenagers and young adults, mostly between the ages of 13 and 24. The app is very popular in North America and Europe, and it is also growing in places like Asia and Latin America. Snapchat faces competition from other social media apps such as Instagram, TikTok, Facebook, and WhatsApp. The app has seen a steady increase in users due to new features and higher engagement. Recent trends in the market include the use of augmented reality (AR), short-form video content, and a greater focus on privacy.
 
