@@ -112,8 +112,8 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Algorithm**: Counting Sort.
    - **Description**: Counting Sort organizes viewer data efficiently, facilitating analytics on snap and story engagement.
 
-   ![images](https://github.com/kshitij583415/aps.github.io/blob/main/images/img8.gif)
-   
+![images](https://github.com/kshitij583415/aps.github.io/blob/main/images/img8.gif)
+
    - **Time Complexity**: O(n + k).
    - **Space Complexity**: O(n + k).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp) [7]
@@ -123,10 +123,10 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Challenges**: Handling a large number of profiles and ensuring fast and accurate search results.
    - **Algorithm**: Trie (Prefix Tree).
    - **Description**: Trie is used to store user profile names efficiently, enabling fast prefix-based searches and enhancing search functionality for users.
+   
+![image](images/img7.png)
+
    - **Time Complexity**: O(m), where m is the length of the search query.
-
-   ![image](images/img7.png)
-
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp) [8]
 
@@ -145,7 +145,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Algorithm**: Priority Queue.
     - **Description**: Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
 
-   ![image](https://github.com/kshitij583415/aps.github.io/blob/main/images/img6.gif)
+![images](images/img6.gif)
 
     - **Time Complexity**: O(log n).
     - **Space Complexity**: O(n) for storing streak data.
@@ -166,7 +166,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Algorithm**: Binary Search Tree (BST).
     - **Description**: BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
 
-   ![images](images/img4.gif)
+![images](images/img4.gif)
 
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
@@ -197,7 +197,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Algorithm**: Huffman Coding.
     - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
 
-   ![image](images/img5.gif)
+![image](images/img5.gif)
 
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
@@ -209,7 +209,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Algorithm**: A* Algorithm 
     - **Description**: The A* Algorithm helps to find the best way to use augmented reality (AR) filters on snaps quickly. It looks through many possible choices to find the best one. It tries to balance finding the right choice with how much effort it takes. This helps make sure AR filters work well on different devices, making the experience smoother for users.
    
-   ![image](images/img3.jpg)
+![image](images/img3.jpg)
 
     - **Time Complexity**: O(( V + E ) log V)
     - **Space Complexity**: O( V ) 
