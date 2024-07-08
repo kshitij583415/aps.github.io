@@ -144,12 +144,11 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Ensuring accurate and real-time tracking of streaks and managing the priority queue efficiently.
     - **Algorithm**: Priority Queue.
     - **Description**: Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
-
-![images](images/img6.gif)
-
     - **Time Complexity**: O(log n).
     - **Space Complexity**: O(n) for storing streak data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp) [9]
+
+![images](images/img6.gif)
 
 11. **Snapchat Filters Application**
     - **Use Case**: Applying real-time filters to snaps.
@@ -165,12 +164,11 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Ensuring timely delivery of notifications and efficiently managing a large number of notifications.
     - **Algorithm**: Binary Search Tree (BST).
     - **Description**: BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
-
-![images](images/img4.gif)
-
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [10]
+
+![images](images/img4.gif)
 
 13. **Discover Content Recommendation**
     - **Use Case**: Recommending personalized content in the Discover section.
@@ -196,24 +194,23 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Maintaining video quality while achieving high compression ratios and ensuring real-time processing.
     - **Algorithm**: Huffman Coding.
     - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
-
-![image](images/img5.gif)
-
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp) [11]
+
+![image](images/img5.gif)
+
 
 16. **Snapchat Augmented Reality (AR) Filters Application**
     - **Use Case**: Applying real-time augmented reality (AR) filters to snaps.
     - **Challenges**: Ensuring AR filters are applied seamlessly in real-time, managing a variety of filter options efficiently, and optimizing performance on mobile devices.
     - **Algorithm**: A* Algorithm 
     - **Description**: The A* Algorithm helps to find the best way to use augmented reality (AR) filters on snaps quickly. It looks through many possible choices to find the best one. It tries to balance finding the right choice with how much effort it takes. This helps make sure AR filters work well on different devices, making the experience smoother for users.
-   
-![image](images/img3.jpg)
-
     - **Time Complexity**: O(( V + E ) log V)
     - **Space Complexity**: O( V ) 
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/a.cpp) [12]
+
+![image](images/img3.jpg)
 
 
 ## Refrences
