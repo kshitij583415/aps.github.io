@@ -115,7 +115,8 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Space Complexity**: O(n + k).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/count.cpp) [7]
 
-![images](images/img8.gif)
+   ![images](images/img8.gif)
+
 8. **Search Functionality Enhancement**
    - **Use Case**: Improving search speed for user profiles.
    - **Challenges**: Handling a large number of profiles and ensuring fast and accurate search results.
@@ -125,7 +126,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Space Complexity**: O(n * L), where n is the number of user profiles and L is the average length of profile names.
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/trie.cpp) [8]
 
-![image](images/img7.png)
+   ![image](images/img7.png)
 
 9. **Geolocation-based Snap Stories**
    - **Use Case**: Displaying local snaps on Snap Maps.
@@ -145,7 +146,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Space Complexity**: O(n) for storing streak data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp) [9]
 
-![images](images/img6.gif)
+    ![images](images/img6.gif)
 
 11. **Snapchat Filters Application**
     - **Use Case**: Applying real-time filters to snaps.
@@ -165,7 +166,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Space Complexity**: O(n).
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp) [10]
 
-![images](images/img4.gif)
+   ![images](images/img4.gif)
 
 13. **Discover Content Recommendation**
     - **Use Case**: Recommending personalized content in the Discover section.
