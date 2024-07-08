@@ -66,6 +66,8 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Space Complexity**: O(V).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/dfs.cpp) [2]
 
+   ![image](images/img11.png)
+
 3. **Snapchat Memories Storage**
    - **Use Case**: Efficiently storing and retrieving user memories to ensure quick access and management.
    - **Challenges**: Maintaining performance with a large number of memories and ensuring data integrity during updates.
@@ -96,6 +98,8 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
    - **Time Complexity**: O(n log n).
    - **Space Complexity**: O(n).
    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/merge.cpp) [5]
+
+   ![image](images/img10.gif)
 
 6. **Snap Map Navigation**
    - **Use Case**: Navigating through Snap Maps.
