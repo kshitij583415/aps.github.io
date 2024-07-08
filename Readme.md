@@ -147,6 +147,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
 
    ![image](images/img6.gif)
 
+
     - **Time Complexity**: O(log n).
     - **Space Complexity**: O(n) for storing streak data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp) [9]
@@ -167,6 +168,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: BST organizes and manages notifications based on user preferences, ensuring efficient notification delivery and management.
 
    ![images](images/img4.gif)
+
 
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
@@ -198,6 +200,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
 
    ![image](images/img5.gif)
+   
 
     - **Time Complexity**: O(n log n) for building the Huffman tree.
     - **Space Complexity**: O(n) for storing compressed video data.
