@@ -24,10 +24,9 @@ Prakash Hegade
 2. [*Market Analysis*](#market-analysis)
 3. [*Objectives*](#objectives)
 4. [*Data Structures and Algorithms applicable*](#data-structures-and-algorithms-applicable)
-5. [*Challenges*](#challenges)
 
 ## Introduction
-   ![image](images/img1.jpg)
+![image](images/img1.jpg)
 
 Snapchat is an American multimedia instant messaging app and service developed by Snap Inc., originally Snapchat Inc. One of the principal features of Snapchat is that pictures and messages are usually only available for a short time before they become inaccessible to their recipients. The app has evolved from originally focusing on person-to-person photo sharing to presently featuring users' "Stories" of 24 hours of chronological content, along with "Discover", letting brands show ad-supported short-form content. It also allows users to store photos in a password-protected area called "My Eyes Only". It has also reportedly incorporated limited use of end-to-end encryption, with plans to broaden its use in the future.
 
@@ -160,3 +159,31 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
     - **Space Complexity**: O(n).
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp)
+
+13. **Discover Content Recommendation**
+    - **Use Case**: Recommending personalized content in the Discover section.
+    - **Challenges**: Providing relevant recommendations in real-time based on user preferences and behavior.
+    - **Algorithm**: Binary Search Tree (BST) 
+    - **Description**:  A Binary Search Tree augmented with user preferences stores and retrieves content recommendations efficiently, ensuring personalized recommendations in the Discover section.
+    - **Time Complexity**: O(log n) for insertion, deletion, and retrieval operations in BST.
+    - **Space Complexity**:  O(n) for storing user preferences and content features.
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/bst.cpp)
+
+14. **Snapchat Ad Targeting**
+    - **Use Case**: Targeting ads to users based on their behavior and preferences.
+    - **Challenges**: Accurately targeting ads without compromising user privacy and managing large datasets efficiently.
+    - **Algorithm**: Hash Map.
+    - **Description**: Hash Map allows fast lookup and storage of user preferences, enabling efficient ad targeting based on behavior and preferences while maintaining user privacy.
+    - **Time Complexity**: O(1) for average-case operations (insertion, deletion, retrieval).
+    - **Space Complexity**: O(n) for storing user data.
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/hash.cpp)
+
+
+15. **Snapchat Video Compression**
+    - **Use Case**: Compressing videos to reduce storage and bandwidth usage.
+    - **Challenges**: Maintaining video quality while achieving high compression ratios and ensuring real-time processing.
+    - **Algorithm**: Huffman Coding.
+    - **Description**: Huffman Coding compresses videos efficiently, reducing storage and bandwidth usage while maintaining video quality.
+    - **Time Complexity**: O(n log n) for building the Huffman tree.
+    - **Space Complexity**: O(n) for storing compressed video data.
+    - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/huffman.cpp)
