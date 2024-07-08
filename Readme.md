@@ -217,16 +217,17 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     ![image](images/img3.jpg)
 
 
-## Refrences
-[1] Medium-"HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)
-[2] GeeksforGeeks-"DFS for a Graph" [Link](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
-[3] GeeksforGeeks-"B*-Trees implementation in C++" [Link](https://www.geeksforgeeks.org/b-trees-implementation-in-c/)
-[4] Programiz-C++ Queue [Link](https://www.programiz.com/cpp-programming/queue)
-[5] GeeksforGeeks-"C++ Program For Merge Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-merge-sort/)
-[6] GeeksforGeeks-"C / C++ Program for Dijkstra’s shortest path algorithm" [Link](https://www.geeksforgeeks.org/c-program-for-dijkstras-shortest--algorithm-greedy-algo-7/) 
-[7] GeeksforGeeks-"C++ Program For Counting Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-counting-sort/)
-[8] GeeksforGeeks-"Trie Data Structure" [Link](hpathttps://www.geeksforgeeks.org/trie-insert-and-search/)
-[9] GeeksforGeeks-"Priority Queue in C++" [Link](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
-[10] GeeksforGeeks-"Binary Search Tree" [Link](https://www.geeksforgeeks.org/cpp-binary-search-tree/)
-[11] GeeksforGeeks-"Huffman Coding" [Link](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
-[12] GeeksforGeeks-"A* Algorithm" [Link](https://www.geeksforgeeks.org/a-search-algorithm/)
+## References
+
+[1] Medium - "HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)  
+[2] GeeksforGeeks - "DFS for a Graph" [Link](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)  
+[3] GeeksforGeeks - "B*-Trees implementation in C++" [Link](https://www.geeksforgeeks.org/b-trees-implementation-in-c/)  
+[4] Programiz - "C++ Queue" [Link](https://www.programiz.com/cpp-programming/queue)  
+[5] GeeksforGeeks - "C++ Program For Merge Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-merge-sort/)  
+[6] GeeksforGeeks - "C / C++ Program for Dijkstra’s shortest path algorithm" [Link](https://www.geeksforgeeks.org/c-program-for-dijkstras-shortest--algorithm-greedy-algo-7/)  
+[7] GeeksforGeeks - "C++ Program For Counting Sort" [Link](https://www.geeksforgeeks.org/cpp-program-for-counting-sort/)  
+[8] GeeksforGeeks - "Trie Data Structure" [Link](https://www.geeksforgeeks.org/trie-insert-and-search/)  
+[9] GeeksforGeeks - "Priority Queue in C++" [Link](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)  
+[10] GeeksforGeeks - "Binary Search Tree" [Link](https://www.geeksforgeeks.org/cpp-binary-search-tree/)  
+[11] GeeksforGeeks - "Huffman Coding" [Link](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)  
+[12] GeeksforGeeks - "A* Algorithm" [Link](https://www.geeksforgeeks.org/a-search-algorithm/)  
