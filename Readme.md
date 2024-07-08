@@ -219,7 +219,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
 
 ## References
 
-[1] Medium - "HashMaps in C++" [Link](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)  
+[[1]Medium - "HashMaps in C++"](https://medium.com/@vinay.vashist2003/hashmaps-in-c-f9da8651dcff)  
 [2] GeeksforGeeks - "DFS for a Graph" [Link](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)  
 [3] GeeksforGeeks - "B*-Trees implementation in C++" [Link](https://www.geeksforgeeks.org/b-trees-implementation-in-c/)  
 [4] Programiz - "C++ Queue" [Link](https://www.programiz.com/cpp-programming/queue)  
