@@ -23,7 +23,7 @@ Prakash Hegade
 1. [*Introduction*](#introduction)
 2. [*Market Analysis*](#market-analysis)
 3. [*Objectives*](#objectives)
-4. [*Data Structures and Algorithms applicable*](#data-structures-and-algorithms-applicable)
+4. [*Business Use Cases*](#business-use-cases)
 
 ## Introduction
 ![image](images/img1.jpg)
@@ -46,7 +46,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
 - Enable personalized interactions and content discovery through advanced search and recommendation systems.
 - Ensure smooth and fast performance even with increasing user numbers.
 
-## Data Structures and Algorithms applicable
+## Business Use Cases
 
 1. **User Profile Management**
    - **Use Case**: Efficient management of user profiles.
