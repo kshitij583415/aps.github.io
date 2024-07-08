@@ -144,10 +144,7 @@ Snapchat makes money primarily through advertising, where ads are shown in the D
     - **Challenges**: Ensuring accurate and real-time tracking of streaks and managing the priority queue efficiently.
     - **Algorithm**: Priority Queue.
     - **Description**: Priority Queue manages streaks based on activity, ensuring accurate tracking and notification of streak statuses.
-
-   <!-- ![image](https://github.com/kshitij583415/aps.github.io/blob/main/images/img6.gif) -->
-
-
+   ![image](https://github.com/kshitij583415/aps.github.io/blob/main/images/img6.gif)
     - **Time Complexity**: O(log n).
     - **Space Complexity**: O(n) for storing streak data.
     - **Code**: [Click here](https://github.com/kshitij583415/aps.github.io/blob/main/code/priority.cpp) [9]
